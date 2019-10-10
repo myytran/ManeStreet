@@ -1,0 +1,11 @@
+{
+  "name": "manestreet",
+  "version": "1.0.0",
+  "description": "A MERN application that uses React to allow stylists and artists alike to sign in, create a profile, connect with other stylists to collaborate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "My Tran",
+  "license": "ISC"
+}
