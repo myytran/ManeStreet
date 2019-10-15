@@ -2,10 +2,33 @@
   "name": "manestreet",
   "version": "1.0.0",
   "description": "A MERN application that uses React to allow stylists and artists alike to sign in, create a profile, connect with other stylists to collaborate.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "server": "nodemon server"
   },
   "author": "My Tran",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myytran/ManeStreet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/myytran/ManeStreet/issues"
+  },
+  "homepage": "https://github.com/myytran/ManeStreet#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.5",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.3"
+  }
 }
