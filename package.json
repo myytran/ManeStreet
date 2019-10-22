@@ -1,11 +1,13 @@
 {
   "name": "manestreet",
   "version": "1.0.0",
-  "description": "A MERN application that uses React to allow stylists and artists alike to sign in, create a profile, connect with other stylists to collaborate.",
+  "description": "A MERN application that uses React to allow stylists and artists alike to sign in, create a profile, connect with other stylists and collaborate.",
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client"
   },
   "author": "My Tran",
   "license": "ISC",
