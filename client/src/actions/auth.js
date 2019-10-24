@@ -4,13 +4,6 @@ import {
   REGISTER_SUCCESS,
   REGISTER_FAIL,
   USER_LOADED,
-<<<<<<< HEAD
-  AUTH_ERROR
-} from './types';
-import setAuthToken from '../utils/setAuthToken';
-
-// Load User
-=======
   AUTH_ERROR,
   LOGIN_SUCCESS,
   LOGIN_FAIL,
@@ -20,7 +13,6 @@ import setAuthToken from '../utils/setAuthToken';
 
 //Load User
 
->>>>>>> redux
 export const loadUser = () => async dispatch => {
   if (localStorage.token) {
     setAuthToken(localStorage.token);

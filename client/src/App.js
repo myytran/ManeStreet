@@ -5,13 +5,8 @@ import Landing from './components/layouts/Landing';
 import Register from './components/auth/Register';
 import Login from './components/auth/Login';
 import Alert from './components/layouts/Alert';
-<<<<<<< HEAD
 import { loadUser } from './actions/auth';
 import setAuthToken from './utils/setAuthToken';
-=======
-import setAuthToken from './utils/setAuthToken';
-import { loadUser } from './actions/auth';
->>>>>>> redux
 
 //Redux
 import { Provider } from 'react-redux';
