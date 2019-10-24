@@ -2,7 +2,14 @@ import {
   REGISTER_SUCCESS,
   REGISTER_FAIL,
   USER_LOADED,
+<<<<<<< HEAD
   AUTH_ERROR
+=======
+  AUTH_ERROR,
+  LOGIN_FAIL,
+  LOGIN_SUCCESS,
+  LOGOUT
+>>>>>>> redux
 } from '../actions/types';
 
 const initalState = {
@@ -24,6 +31,7 @@ export default function(state = initalState, action) {
         user: payload
       };
     case REGISTER_SUCCESS:
+    case LOGIN_SUCCESS:
       localStorage.setItem('token', payload.token);
       return {
         ...state,
@@ -33,6 +41,11 @@ export default function(state = initalState, action) {
       };
     case REGISTER_FAIL:
     case AUTH_ERROR:
+<<<<<<< HEAD
+=======
+    case LOGIN_FAIL:
+    case LOGOUT:
+>>>>>>> redux
       localStorage.removeItem('token');
       return {
         ...state,
