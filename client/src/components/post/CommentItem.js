@@ -7,7 +7,7 @@ import { deleteComment } from '../../actions/post';
 
 const CommentItem = ({
   postId,
-  comment: { _id, text, name, avatar, user, date },
+  comment: { commentId, text, name, avatar, user, date },
   auth,
   deleteComment
 }) => (
@@ -25,7 +25,7 @@ const CommentItem = ({
       </p>
       {!auth.loading && user === auth.user._id && (
         <button
-          onClick={e => deleteComment(postId, _id)}
+          onClick={e => deleteComment(postId, commentId)}
           type='button'
           className='btn btn-danger'
         >
