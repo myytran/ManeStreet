@@ -4,6 +4,7 @@
   "description": "A MERN application that uses React to allow stylists and artists alike to sign in, create a profile, connect with other stylists and collaborate.",
   "main": "server.js",
   "scripts": {
+    "test": "jest",
     "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix client",
