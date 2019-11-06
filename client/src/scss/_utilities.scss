@@ -31,6 +31,16 @@
   color: $primary-color;
 }
 
+.round-img {
+  border-radius: 30%;
+}
+
+.line {
+  height: 0.5px;
+  background: #ccc;
+  margin: 1.5rem;
+}
+
 // backgrounds
 
 .bg {
@@ -128,4 +138,15 @@
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.table {
+  th,
+  td {
+    padding: 1rem;
+    text-align: left;
+  }
+  th {
+    background: $light-color;
+  }
 }

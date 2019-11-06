@@ -8,7 +8,7 @@ const CommentForm = ({ postId, addComment }) => {
 
   return (
     <div className='post-form'>
-      <div className='bg-primary p'>
+      <div className='post-form-header bg-primary'>
         <h3>Leave A Comment</h3>
       </div>
       <form
