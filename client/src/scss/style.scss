@@ -160,12 +160,7 @@ img {
 .post {
   display: grid;
   grid-template-columns: 1sfr 4fr;
-  grid-gap: 2rem;
-  align-items: center;
-
-  & > div:first-child {
-    text-align: center;
-  }
+  grid-gap: 1rem;
 
   img {
     width: 150px;
