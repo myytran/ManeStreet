@@ -83,6 +83,7 @@
     @include set-background($primary-color);
     &:hover {
       background: lighten($primary-color, 5%);
+      background: darken($dark-color, 5%);
     }
   }
   &.btn-dark {

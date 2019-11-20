@@ -45,7 +45,9 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   return (
     <nav className='navbar bg-dark'>
       <h1>
-        <Link to='/'>Mane Street</Link>
+        <Link to='/'>
+          <i class='far fa-gem'></i> Mane Street
+        </Link>
       </h1>
       {!loading && (
         <Fragment>{isAuthenticated ? authLinks : guestLinks}</Fragment>
@@ -63,7 +65,4 @@ const mapStateToProps = state => ({
   auth: state.auth
 });
 
-export default connect(
-  mapStateToProps,
-  { logout }
-)(Navbar);
+export default connect(mapStateToProps, { logout })(Navbar);

@@ -131,17 +131,17 @@
 
 .bg-dark {
   background-color: #343a40;
-  color: #fff;
+  color: #141212;
 }
 
 .bg-success {
   background-color: #28a745;
-  color: #fff;
+  color: #141212;
 }
 
 .bg-danger {
   background-color: #dc3545;
-  color: #fff;
+  color: #141212;
 }
 
 .bg-white {
@@ -171,11 +171,12 @@
 
 .btn.btn-primary:hover {
   background: #adebeb;
+  background: #292d32;
 }
 
 .btn.btn-dark {
   background-color: #343a40;
-  color: #fff;
+  color: #141212;
 }
 
 .btn.btn-dark:hover {
@@ -184,7 +185,7 @@
 
 .btn.btn-success {
   background-color: #28a745;
-  color: #fff;
+  color: #141212;
 }
 
 .btn.btn-success:hover {
@@ -193,7 +194,7 @@
 
 .btn.btn-danger {
   background-color: #dc3545;
-  color: #fff;
+  color: #141212;
 }
 
 .btn.btn-danger:hover {
@@ -220,17 +221,17 @@
 
 .alert.alert-dark {
   background-color: #343a40;
-  color: #fff;
+  color: #141212;
 }
 
 .alert.alert-success {
   background-color: #28a745;
-  color: #fff;
+  color: #141212;
 }
 
 .alert.alert-danger {
   background-color: #dc3545;
-  color: #fff;
+  color: #141212;
 }
 
 .dark-overlay {
