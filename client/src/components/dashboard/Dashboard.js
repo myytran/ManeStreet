@@ -22,7 +22,9 @@ const Dashboard = ({
   ) : (
     <Fragment>
       <section className='container'>
-        <h1 className='large text-primary'>Dashboard</h1>
+        <h1 className='large text-primary'>
+          <i className fas fa-user></i>Dashboard
+        </h1>
         <p className='lead'>
           <i className='fas fa-user'>Welcome {user && user.name}</i>
         </p>
@@ -64,7 +66,6 @@ const mapStateToProps = state => ({
   profile: state.profile
 });
 
-export default connect(
-  mapStateToProps,
-  { getCurrentProfile, deleteAccount }
-)(Dashboard);
+export default connect(mapStateToProps, { getCurrentProfile, deleteAccount })(
+  Dashboard
+);

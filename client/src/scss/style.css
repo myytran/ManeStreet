@@ -91,6 +91,7 @@
   font-size: 4rem;
   line-height: 1.2;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .large {
@@ -109,7 +110,7 @@
 }
 
 .round-img {
-  border-radius: 30%;
+  border-radius: 50%;
 }
 
 .line {
@@ -316,6 +317,7 @@ body {
   line-height: 1.6;
   background-color: #fff;
   color: #333;
+  height: 100%;
 }
 
 a {
@@ -347,7 +349,6 @@ img {
   width: 100%;
   top: 0;
   border-bottom: solid 1px #99e6e6;
-  opacity: 0.9;
 }
 
 .navbar ul {
@@ -368,8 +369,6 @@ img {
 
 .landing {
   position: relative;
-  background: url("../img/lipstick.jpg") no-repeat center center/cover;
-  height: 100vh;
 }
 
 .landing-inner {
@@ -391,6 +390,35 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+}
+
+.img1,
+.img2,
+.img3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.img1 {
+  background-image: url("../img/lipstick.jpg");
+  min-height: 80%;
+  margin-top: 20px;
+}
+
+.img2 {
+  background-image: url("../img/makeup_artist.jpg");
+  min-height: 400px;
+  margin-top: 20px;
+}
+
+.img3 {
+  background-image: url("../img/photographer1.jpg");
+  min-height: 400px;
+  margin-top: 20px;
 }
 
 .profile {
