@@ -404,8 +404,8 @@ img {
 }
 
 .img1 {
-  background-image: url("../img/lipstick.jpg");
-  min-height: 80%;
+  background-image: url("../img/blondhair.jpg");
+  min-height: 100%;
   margin-top: 20px;
 }
 
@@ -416,7 +416,7 @@ img {
 }
 
 .img3 {
-  background-image: url("../img/photographer1.jpg");
+  background-image: url("../img/phtg1.jpg");
   min-height: 400px;
   margin-top: 20px;
 }
