@@ -49,9 +49,12 @@ const Landing = ({ isAuthenticated }) => {
         <Parallax className='img2'>
           <div style={{ height: 500 }}>
             <div style={insideStyles}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-              minima sit iusto deserunt, expedita odio veritatis, vitae tenetur
-              accusantium qui maxime, necessitatibus nam?
+              <h1 className='large'>Make Up Artists</h1>
+              <p className='lead'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo minima sit iusto deserunt, expedita odio veritatis,
+                vitae tenetur accusantium qui maxime, necessitatibus nam?
+              </p>
             </div>
           </div>
         </Parallax>
@@ -59,15 +62,13 @@ const Landing = ({ isAuthenticated }) => {
         <Parallax className='img3'>
           <div style={{ height: 500 }}>
             <div style={insideStyles}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              totam quos nostrum soluta, quisquam velit fugit dolorem vitae
-              ratione maxime numquam dolor voluptatum nesciunt, sequi voluptate
-              saepe. Aspernatur reprehenderit, quod molestias recusandae
-              explicabo ullam facere nobis cupiditate officiis suscipit
-              deserunt. Perspiciatis quidem velit amet. At, ab recusandae?
-              Corporis, ex totam? Aut, voluptates possimus, debitis, suscipit
-              aliquid accusantium impedit iste ratione voluptate repellendus
-              asperiores. Iusto sequi possimus placeat?
+              <h1 className='large'>Photographers</h1>
+              <p className='lead'>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
+                provident tempora distinctio a dolor tenetur, fugit illum porro
+                atque eaque, non expedita voluptates nihil, sit corporis earum
+                dolore obcaecati facilis? Eum quia modi dolorem.
+              </p>
             </div>
           </div>
         </Parallax>
