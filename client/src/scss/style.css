@@ -536,7 +536,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   background: #333;
-  height: 60px;
+  height: 50px;
   position: fixed;
   width: 100%;
   overflow: hidden;
@@ -548,17 +548,27 @@ img {
 
 .footer-content {
   position: absolute;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #fff;
-  padding: 0.7rem 2rem;
+  padding: 0.7rem 20rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
 }
 
-.footer-content copyright {
-  margin: 0;
+.footer-content-2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0.1rem 5rem;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  text-align: right;
+  letter-spacing: 5px;
 }
 
 @media (max-width: 700px) {
