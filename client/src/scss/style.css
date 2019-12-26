@@ -101,7 +101,7 @@
 
 .lead {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  padding: 1.5rem;
 }
 
 .text-primary {
@@ -417,6 +417,10 @@ img {
   margin-top: 20px;
 }
 
+.profiles {
+  padding: 2rem;
+}
+
 .profile {
   display: -ms-grid;
   display: grid;
@@ -563,9 +567,6 @@ img {
   .hide-sm {
     display: none;
   }
-  .container {
-    margin-top: 8rem;
-  }
   .x-large {
     font-size: 3rem;
   }
@@ -606,6 +607,9 @@ img {
     display: block;
     width: 100%;
     margin-bottom: 0.2rem;
+  }
+  .profiles img {
+    display: none;
   }
   .profile {
     -ms-grid-columns: 1fr;

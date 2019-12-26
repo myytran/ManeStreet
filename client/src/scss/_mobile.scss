@@ -3,10 +3,6 @@
     display: none;
   }
 
-  .container {
-    margin-top: 8rem;
-  }
-
   // Text styles
 
   .x-large {
@@ -57,6 +53,11 @@
   }
 
   //Profiles
+  .profiles {
+    img {
+      display: none;
+    }
+  }
 
   .profile {
     grid-template-columns: 1fr;
