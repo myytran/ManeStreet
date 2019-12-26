@@ -6,6 +6,8 @@
   margin: auto;
   overflow: hidden;
   margin-bottom: 3rem;
+  margin-top: 4rem;
+  padding: 2rem;
 }
 
 //Text styles
@@ -142,12 +144,13 @@
 }
 
 .table {
+  padding-left: 2rem;
   th,
   td {
     padding: 1rem;
-    text-align: left;
+    text-align: center;
   }
   th {
-    background: $light-color;
+    background: $primary-color;
   }
 }

@@ -37,8 +37,8 @@ const Experience = ({ experience, deleteExperience }) => {
           <tr>
             <th>Company</th>
             <th className='hide-sm'>Title</th>
-            <th className='hide-sm'>Years</th>
-            <th />
+            <th className=''>Years</th>
+            <th className=''>Actions</th>
           </tr>
         </thead>
         <tbody>{experiences}</tbody>
@@ -52,7 +52,4 @@ Experience.propTypes = {
   deleteExperience: PropTypes.func.isRequired
 };
 
-export default connect(
-  null,
-  { deleteExperience }
-)(Experience);
+export default connect(null, { deleteExperience })(Experience);
