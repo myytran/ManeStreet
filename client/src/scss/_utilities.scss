@@ -1,11 +1,10 @@
 // container
 
 .container {
-  max-width: $max-width;
+  max-width: 100%;
+  position: relative;
   margin: auto;
   overflow: hidden;
-  padding: 0 2rem;
-  margin-top: 6rem;
   margin-bottom: 3rem;
 }
 
@@ -38,7 +37,7 @@
 
 .line {
   height: 0.5px;
-  background: #ccc;
+  background: MediumTurquoise;
   margin: 1.5rem;
 }
 
@@ -136,7 +135,7 @@
 .dark-overlay {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.7);

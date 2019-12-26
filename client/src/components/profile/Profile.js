@@ -31,7 +31,7 @@ const Profile = ({
             {auth.isAuthenticated &&
               auth.loading === false &&
               auth.user._id === profile.user._id && (
-                <Link to='/edit-profile' className='btn btn-dark'>
+                <Link to='/edit-profile' className='btn btn-light'>
                   Edit Profile
                 </Link>
               )}
@@ -72,7 +72,4 @@ const mapStateToProps = state => ({
   auth: state.auth
 });
 
-export default connect(
-  mapStateToProps,
-  { getProfileById }
-)(Profile);
+export default connect(mapStateToProps, { getProfileById })(Profile);

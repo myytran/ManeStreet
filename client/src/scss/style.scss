@@ -199,32 +199,23 @@ img {
 
 .footer {
   display: flex;
-  background: #333;
-  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 2rem;
   position: fixed;
   width: 100%;
-  overflow: hidden;
-  justify-content: space-between;
   bottom: 0px;
-}
-
-.footer-content {
-  position: absolute;
+  border-top: solid 1px $primary-color;
+  background-color: #343a40;
+  color: #fff;
+  letter-spacing: 0.1rem;
   font-size: 1rem;
-  color: #fff;
-  padding: 0.7rem 20rem;
-  align-items: center;
-  text-align: center;
-}
 
-.footer-content-2 {
-  display: inline-flex;
-  font-size: 1.5rem;
-  color: #fff;
-  padding: 0.1rem 5rem;
-  align-items: right;
-  text-align: right;
-  letter-spacing: 5px;
+  ul {
+    display: flex;
+    letter-spacing: 0.7rem;
+    font-size: 1.4rem;
+  }
 }
 
 @import 'mobile';

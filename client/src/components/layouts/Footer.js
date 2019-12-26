@@ -1,18 +1,30 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <div className='footer'>
-      <div className='footer-content'>
-        &copy; {new Date().getFullYear()} Beauty Networking App - My Tran || All
-        Rights Reserved
-        <div className='footer-content-2'>
-          <h6>Social</h6>
-          <i class='fab fa-facebook-square'></i>
-          <i class='fas fa-share-alt-square'></i>
-          <i class='fas fa-envelope'></i>
-        </div>
-      </div>
+      &copy; {new Date().getFullYear()} Beauty Networking App - My Tran || All
+      Rights Reserved
+      <Fragment>
+        <ul>
+          <li>
+            <Link to='!#'>
+              <i className='fab fa-facebook-square'></i>
+            </Link>
+          </li>
+          <li>
+            <Link to='!#'>
+              <i className='fas fa-share-alt-square'></i>
+            </Link>
+          </li>
+          <li>
+            <Link to='!#'>
+              <i className='fas fa-envelope'></i>
+            </Link>
+          </li>
+        </ul>
+      </Fragment>
     </div>
   );
 };

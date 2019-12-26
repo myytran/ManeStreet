@@ -36,6 +36,20 @@
     }
   }
 
+  //Footer
+
+  .footer {
+    display: block;
+    text-align: center;
+    justify-content: center;
+
+    ul {
+      text-align: center;
+      justify-content: center;
+      margin-bottom: -0.8rem;
+    }
+  }
+
   .dash-buttons a {
     display: block;
     width: 100%;
