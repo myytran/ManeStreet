@@ -187,6 +187,22 @@ img {
 
 .post-form-header {
   padding: 0.5rem;
+
+  textarea {
+    padding: 15px;
+    background-color: #b6e6f2;
+    margin-bottom: 15px;
+  }
+}
+
+.comment-form-header {
+  padding: 0.5rem;
+
+  textarea {
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 15px;
+  }
 }
 
 .post {

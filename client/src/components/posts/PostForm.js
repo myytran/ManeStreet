@@ -7,10 +7,9 @@ const PostForm = ({ addPost }) => {
   const [text, setText] = useState('');
 
   return (
-    <div className='post-form'>
-      <div className='post-form-header bg-primary'>
-        <h3>Start a discussion...</h3>
-      </div>
+    <div className='post-form-header'>
+      <h3>Start a discussion...</h3>
+
       <form
         className='form my-1'
         onSubmit={e => {

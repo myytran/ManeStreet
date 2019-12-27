@@ -24,7 +24,7 @@ const Landing = ({ isAuthenticated }) => {
   }
 
   return (
-    <div className='container'>
+    <div className='landing-container'>
       <section className='landing' style={styles}>
         <div className='dark-overlay'>
           <Parallax className='img1'>
